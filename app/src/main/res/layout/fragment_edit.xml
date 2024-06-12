@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditFragment"
+    android:background="@color/yellow">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="398dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/rounded_corner"
+        android:elevation="4dp"
+        android:padding="16dp">
+
+        <!-- First Note Title -->
+        <TextView
+            android:id="@+id/note_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:text="Note Title:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- First Note Text -->
+        <TextView
+            android:id="@+id/note_text"
+            android:layout_width="177dp"
+            android:layout_height="39dp"
+            android:layout_below="@+id/note_title"
+            android:layout_alignParentStart="true"
+            android:text="This is the first note text."
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Icon -->
+        <ImageView
+            android:id="@+id/delete_icon1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/baseline_delete_24" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="130dp"
+        android:layout_width="398dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/rounded_corner"
+        android:elevation="4dp"
+        android:padding="16dp">
+
+        <!-- Second Note Title -->
+        <TextView
+            android:id="@+id/note_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:text="Note Title:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- First Note Text -->
+        <TextView
+            android:id="@+id/note_text1"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/note_title1"
+            android:layout_alignBottom="@+id/note_title1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="-40dp"
+            android:text="This is the second note text."
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Icon -->
+        <ImageView
+            android:id="@+id/delete_icon2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/baseline_delete_24" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="240dp"
+        android:layout_width="398dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/rounded_corner"
+        android:elevation="4dp"
+        android:padding="16dp">
+
+        <!-- Second Note Title -->
+        <TextView
+            android:id="@+id/note_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:text="Note Title:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- First Note Text -->
+        <TextView
+            android:id="@+id/note_text2"
+            android:layout_width="215dp"
+            android:layout_height="36dp"
+            android:layout_below="@+id/note_title2"
+            android:layout_alignBottom="@+id/note_title2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-2dp"
+            android:layout_marginEnd="167dp"
+            android:layout_marginBottom="-36dp"
+            android:text="This is the third note text."
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Icon -->
+        <ImageView
+            android:id="@+id/delete_icon3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/baseline_delete_24" />
+    </RelativeLayout>
+
+    <Button
+    android:id="@+id/DeleteAllNotes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Delete"
+    android:textSize="15dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp" />
+
+
+</FrameLayout>
